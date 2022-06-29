@@ -1,2 +1,5 @@
 pandas
 numpy
+mediapipe
+torch
+cv2
