@@ -12,3 +12,11 @@ index, middle and ring finger up to erase.
 
 
 when being idle bring fingers to top center of screen to predict the drawing.
+
+
+
+Datas:
+Used datas from Quick! Draw dataset by google
+has 7 classes : 'saw', 'crown', 'cup', 'cloud', 'pizza', 'camera', 'face' that can be predicted
+
+used 25000 images each, to run on CNN architecture, and got an 91.1% test accuracy. 
