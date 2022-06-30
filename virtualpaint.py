@@ -81,7 +81,7 @@ while True:
             if y1<125 and 670<x1<790:
                 imggen = process_img(imgInv,(28,28))
                 # print(classes[pred(imggen)])
-                cv2.putText(img, classes[pred(imggen)], (520, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, 255)
+                cv2.putText(img, classes[pred(imggen)], (560, 95), cv2.FONT_HERSHEY_SIMPLEX, 2, 255)
 
         elif fingers[1]:
             header = overlay[0]
